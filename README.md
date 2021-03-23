@@ -3,8 +3,6 @@ Une pub pour bloquetapub.net
 
 
 <div class="adsbox" style="width: auto; margin: 10px; font-size:small;">
-	<!--Publicité pour bloquetapub.net-->
-	<!--Ce bandeau est sensé ne pas s'afficher si un bloqueur de pub est activé car il porte la classe .adsbox-->
 <style type="text/css">@keyframes blink { 0%{ background:red; } 50%{ background:white;}}</style>
 <div style="text-align:center;">▼ PUBLICITÉ ▼</div>
 <a href="https://bloquelapub.net" style="display:block; background: white; color:black; text-decoration:none; border-top:2px solid black; ">
