@@ -22,5 +22,5 @@ Vous pouvez :
 Voir :
 
 * [Le code](bandeau.html)
-* [La démo]
+* [La démo](https://leonlenclos.github.io/bandeau-anti-publicitaire/)
 * [Le bandeau est visible sur cette page de mon site](http://leonlenclos.net/liens.html) (attention, si vous avez votre bloqueur activé vous ne le verrez pas)
