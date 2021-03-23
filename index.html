@@ -7,12 +7,12 @@
 
 	<h1>Bandeau publicitaire pour bloquetapub.net</h1>
 	
-	<h2>Demo</h2>
+	<h3>Demo</h3>
 	
 	<em>Note: Si vous ne voyez pas un gros bandeau rouge et blanc ci-dessous, c'est que votre bloqueur de pub est activé.</em>
 
 <div class="adsbox" style="width: auto; margin: 10px; font-size:small;">
-	<!--Publicité pour bloquetapub.net-->
+	<!--Publicité pour bloquetapub.net (Voir: https://github.com/LeonLenclos/bandeau-anti-publicitaire)-->
 	<!--Ce bandeau est sensé ne pas s'afficher si un bloqueur de pub est activé car il porte la classe .adsbox-->
 	<style type="text/css">@keyframes blink { 0%{ background:red; } 50%{ background:white;}}</style>
 	<div style="text-align:center;">▼ PUBLICITÉ ▼</div>
@@ -20,28 +20,30 @@
 		<div style="padding:3px; animation: blink 1s infinite step-end;"><img style="width:100%;" src="https://bloquelapub.net/titre.svg"><div style="text-align:right">bloquelapub.net</div></div>
 		<div style="padding:3px; border-top:10px solid black; padding:3px; ">Si tu vois ce bandeau, c'est que tu n'as certainement pas de bloqueur de pub activé sur ton navigateur... Clique pour en savoir plus !</div>
 	</a>
+</div>
 	
-	<h2>Code</h2>
+	<h3>Code</h3>
 	
 	<em>Note: Vous pouvez copier ça sur votre site.</em>
 
-	
 	<pre>
-&lt;style type=&quot;text/css&quot;&gt;@keyframes blink { 0%{ background:red; } 50%{ background:white;}}&lt;/style&gt;
-&lt;div style=&quot;text-align:center;&quot;&gt;▼ PUBLICIT&Eacute; ▼&lt;/div&gt;
-&lt;a href=&quot;https://bloquelapub.net&quot; style=&quot;display:block; background: white; color:black; text-decoration:none; border:2px solid black; &quot;&gt;
-   &lt;div style=&quot;padding:3px; animation: blink 1s infinite step-end;&quot;&gt;
-      &lt;img style=&quot;width:100%;&quot; src=&quot;https://bloquelapub.net/titre.svg&quot;&gt;
-      &lt;div style=&quot;text-align:right&quot;&gt;bloquelapub.net&lt;/div&gt;
-   &lt;/div&gt;
-   &lt;div style=&quot;padding:3px; border-top:10px solid black; padding:3px; &quot;&gt;Si tu vois ce bandeau, c'est que tu n'as certainement pas de bloqueur de pub activ&eacute; sur ton navigateur... Clique pour en savoir plus !&lt;/div&gt;
-&lt;/a&gt;
-</pre
-	<h2>Notes</h2>
+&lt;div class=&quot;adsbox&quot; style=&quot;width: auto; margin: 10px; font-size:small;&quot;&gt;
+	&lt;!--Publicit&eacute; pour bloquetapub.net (Voir: https://github.com/LeonLenclos/bandeau-anti-publicitaire)--&gt;
+	&lt;!--Ce bandeau est sens&eacute; ne pas s'afficher si un bloqueur de pub est activ&eacute; car il porte la classe .adsbox--&gt;
+	&lt;style type=&quot;text/css&quot;&gt;@keyframes blink { 0%{ background:red; } 50%{ background:white;}}&lt;/style&gt;
+	&lt;div style=&quot;text-align:center;&quot;&gt;▼ PUBLICIT&Eacute; ▼&lt;/div&gt;
+	&lt;a href=&quot;https://bloquelapub.net&quot; style=&quot;display:block; background: white; color:black; text-decoration:none; border:2px solid black; &quot;&gt;
+		&lt;div style=&quot;padding:3px; animation: blink 1s infinite step-end;&quot;&gt;&lt;img style=&quot;width:100%;&quot; src=&quot;https://bloquelapub.net/titre.svg&quot;&gt;&lt;div style=&quot;text-align:right&quot;&gt;bloquelapub.net&lt;/div&gt;&lt;/div&gt;
+		&lt;div style=&quot;padding:3px; border-top:10px solid black; padding:3px; &quot;&gt;Si tu vois ce bandeau, c'est que tu n'as certainement pas de bloqueur de pub activ&eacute; sur ton navigateur... Clique pour en savoir plus !&lt;/div&gt;
+	&lt;/a&gt;
+&lt;/div&gt;
+	</pre>
+	
+	<h3>Notes</h3>
 
 <ul>
 <li>Ce bandeau affiche une pub agressive (qui clignotte en rouge et blanc) et qui pointe vers <a href="http://bloquelapub.net" rel="nofollow">http://bloquelapub.net</a></li>
-<li>Ce bandeau reprend la charte graphique de bloquetapub.fr</li>
+<li>Ce bandeau reprend plus ou moins la charte graphique de bloquetapub.fr</li>
 <li>Ce bandeau est bien sûr bloqué par uBlock Origin et certainement (à tester) la plus-part des bloqueurs.</li>
 <li>J'ai fais ça car je suis contre la publicité en général et sur internet en particulier</li>
 <li>et pour soutenir le travail de bloquetapub.net</li>
@@ -51,7 +53,7 @@
 <li>Installe un bloqueur de pub</li>
 <li><a href="https://raw.githubusercontent.com/LeonLenclos/bandeau-anti-publicitaire/main/bandeau.html" rel="nofollow">Le code à copier sur ton site</a></li>
 <li><a href="https://leonlenclos.github.io/bandeau-anti-publicitaire/" rel="nofollow">La démo</a></li>
-<li><a href="http://leonlenclos.net/liens.html" rel="nofollow">Le bandeau est visible sur cette page de mon site</a> (attention, si vous avez votre bloqueur activé vous ne le verrez pas)</li>
+<li><a href="https://github.com/LeonLenclos/bandeau-anti-publicitaire" rel="nofollow">Le github</a></li>
 <li><a href="http://bloquelapub.net" rel="nofollow">bloquelapub.net</a></li>
 </ul>
 	
