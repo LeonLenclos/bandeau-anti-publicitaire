@@ -1,14 +1,26 @@
-# bandeau-anti-publicitaire
-Une pub pour bloquetapub.net
+Ceci est : un petit bandeau publicitaire à mettre sur vos pages webs.
 
+Concrettement :
 
-<div class="adsbox" style="width: auto; margin: 10px; font-size:small;">
-<style type="text/css">@keyframes blink { 0%{ background:red; } 50%{ background:white;}}</style>
-<div style="text-align:center;">▼ PUBLICITÉ ▼</div>
-<a href="https://bloquelapub.net" style="display:block; background: white; color:black; text-decoration:none; border-top:2px solid black; ">
-<div style="padding:3px; animation: blink 1s infinite step-end;"><img style="width:100%;" src="https://bloquelapub.net/titre.svg"><div style="text-align:right">bloquelapub.net</div></div>
-<div style="padding:3px; border-top:10px solid black; padding:3px; ">Si tu vois ce bandeau, c'est que tu n'as certainement pas de bloqueur de pub activé sur ton navigateur... Clique pour en savoir plus !</div>
-</a>
-</div>
+* Ce bandeau affiche une pub agressive (qui clignotte en rouge et blanc) et qui pointe vers http://bloquelapub.net
+* Le bandeau reprend la charte graphique de bloquetapub.fr
+* Le bandeau est bien sûr bloqué par uBlock Origin et certainement (à tester) la plus-part des bloqueurs.
 
+Parce que :
 
+* Je suis contre la publicité en général et sur internet en particulier
+* Pour soutenir le travail de bloquetapub.net
+* Et une pub anti-pub je trouvais ça rigolo
+
+Vous pouvez :
+
+* Utiliser ça comme vous voulez
+* Le modifier comme bon vous semble
+* Me proposer des modifs
+* Installer un bloqueur de pub
+
+Voir :
+
+* [Le code](bandeau.html)
+* [La démo]
+* [Le bandeau est visible sur cette page de mon site](http://leonlenclos.net/liens.html) (attention, si vous avez votre bloqueur activé vous ne le verrez pas)
